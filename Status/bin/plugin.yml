@@ -1,0 +1,29 @@
+name: StatusMessages
+version: 1.2.7
+author: qwhaty
+main: me.qwhaty.status.Main
+description: Adds a variety a commands to change your in-game status
+
+depend: [PlaceholderAPI, Vault]
+
+commands:
+  donotdisturb:
+    aliases: [dnd]
+    usage: /donotdisturb
+    description: Changes the player's status to "Do Not Disturb"
+  streaming:
+    aliases: [str]
+    usage: /streaming
+    description: Changes the player's status to "Streaming"
+  building:
+    aliases: []
+    usage: /building
+    description: Changes the player's status to "Building"
+  recording:
+    aliases: [rec]
+    usage: /recording
+    description: Changes the player's status to "Recording"
+  statusauthors:
+    aliases: [statusauthor]
+    usage: /statusauthors
+    description: Shows the authors of this plugin
